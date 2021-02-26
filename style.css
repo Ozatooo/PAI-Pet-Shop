@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+      body{
+      font-family: 'Reggae One', cursive;
+      padding:0px;
+      margin: 0px;
+      place-content: center;
+      align-items:center;
+      background-color: #f2cf07;
+      background-image: linear-gradient(315deg, #f2cf07 0%, #55d284 74%);
+      
+      }
+      .logo{
+        position: absolute;
+        width: 70%;
+        height: 15%;
+        left:15%;
+        top:5%;
+      }
+
+      .container{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+
+      .animal-collection{
+      width: 1024px;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+
+      .dog{
+      width: 500px;
+      height: 500px;
+      background-image: url("assets/dog.jpg");
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+      }
+
+      .cat{
+      width: 500px;
+      height: 238px;
+      background-image: url("assets/cat.jpg");
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+
+      }
+
+
+
+      .right-container{
+
+      width: 500px;
+      height: 500px;
+      margin-left: 24px;
+
+
+      }
+
+
+      .another{
+      margin-top: 24px;
+      width: 500px;
+      height: 238px;
+      display: flex;     
+      flex-direction: row;     
+
+
+
+      }
+      .another-collection{
+      width: 238px;
+      height: 238px;
+
+      }
+
+
+      .top-products-container{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+
+      }
+
+
+      .top-products{
+        position: absolute;
+        height: 40%;
+        top:140%;
+        width: 60%;
+        margin-left:20%;
+        text-align: center;
+        opacity: 1;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        transition: ease-in .3s;
+
+      }
+
+      .top-products-dog{
+        position: absolute;
+        height: 40%;
+        top:140%;
+        width: 60%;
+        margin-left:20%;
+        text-align: center;
+        opacity: 0;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        transition: ease-in .3s;
+
+
+      }
+
+      .top-products-cat{
+        position: absolute;
+        height: 40%;
+        top:140%;
+        width: 60%;
+        margin-left:20%;
+        text-align: center;
+        opacity: 0;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        transition: ease-in .3s;
+
+      }
+
+      .top-products-rodents{
+        position: absolute;
+        height: 40%;
+        top:140%;
+        width: 60%;
+        margin-left:20%;
+        text-align: center;
+        opacity: 0;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        transition: ease-in .3s;
+
+      }
+
+      .top-products-bird{
+        position: absolute;
+        height: 40%;
+        top:140%;
+        width: 60%;
+        margin-left:20%;
+        text-align: center;
+        opacity: 0;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        transition: ease-in .3s;
+
+      }
+
+
+
+
+      .small_animal_left{
+      width: 238px;
+      height: 238px;
+      background-image: url("assets/rodents.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      }
+
+      .small_animal_right{
+      margin-left: 24px;
+      width: 238px;
+      height: 238px;
+      background-image: url("assets/bird.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      }
+
+      .space{
+        width:2%;
+        height: 100%;
+        left:25%;
+      }
+
+
+
+      .small_animal{
+      background-color:#9ACD32;
+      padding:42px 32px;
+      height: 64.5%;
+      clip-path: circle(7% at 91% 9%);
+      transition: all ease-in-out .3s;
+      }
+
+      .small_animal__infoicon{
+      display: flex;
+      justify-content: flex-end;    
+      font-size:1.4em;
+      color:#000000;
+      transition:ease-out .3s;
+      }
+
+
+      .small_animal__title{
+      position: relative;
+      color:#006400;
+      top:-40px;
+      font-size:100%;
+      line-height:1.2;
+      transform-origin: 0 0;
+
+      }
+      .small_animal__description{
+      margin:0;
+
+      font-size: 1.1em;
+      line-height:1.6;
+      }
+      .small_animal__credits{
+      margin:0;
+      padding: 4px 0;
+
+      font-size: 1.1em;
+      }
+      .small_animal__reference{
+      display:inline-block;
+
+      border-bottom: 1px solid transparent;
+      color:#0099ff;
+      text-decoration:none;
+      transition: ease-in .3s;
+      }
+      .small_animal:hover{
+      border-bottom-color: #0099ff;
+      }
+
+
+      .small_animal:hover, .small_animal:focus{
+      clip-path: circle(75%);
+      box-shadow: 0px 3px 9px rgba(0,0,0,0.12),
+          0px 3px 18px rgba(0,0,0,0.08);
+      background:#ffffff;
+
+      outline:none;
+      }
+
+
+      .small_animal:focus{
+      box-shadow: 0px 3px 9px rgba(0,0,0,0.12), 
+          0px 3px 18px rgba(0,0,0,0.08), 
+          0px 0px 0px 4px rgba(0,0,0,0.2);
+      }
+
+
+
+
+      .dog-card{
+      background-color:#9ACD32;
+      padding:42px 32px;
+      height: 83.1%;
+      clip-path: circle(5% at 93% 7.3%);
+      transition: all ease-in-out .3s;
+
+      }
+
+      .dog__infoicon{
+      display: flex;
+      justify-content: flex-end;    
+      font-size:1.4em;
+      color:#000000;
+      transition:ease-out .3s;
+      }
+
+
+      .dog-card__title{
+      margin:0;
+      color:#006400;
+      font-size: 220%;
+      line-height:1.2;
+
+
+      }
+      .dog-card__description{
+      margin:0;
+
+      font-size: 1.1em;
+      line-height:1.6;
+      }
+      .dog-card__credits{
+      margin:0;
+      padding: 4px 0;
+
+      font-size: 1.1em;
+      }
+      .dog-card__reference{
+      display:inline-block;
+
+      border-bottom: 1px solid transparent;
+      color:#0099ff;
+      text-decoration:none;
+      transition: ease-in .3s;
+      }
+      .dog-card:hover{
+      border-bottom-color: #0099ff;
+      }
+
+
+      .dog-card:hover, .dog-card:focus{
+      clip-path: circle(75%);
+      box-shadow: 0px 3px 9px rgba(0,0,0,0.12),
+                  0px 3px 18px rgba(0,0,0,0.08);
+      background:#ffffff;          
+      outline:none;
+      }
+
+
+
+
+      .dog-card__infoicon{
+      opacity: 0;
+      }
+
+      .dog-card:focus{
+      box-shadow: 0px 3px 9px rgba(0,0,0,0.12), 
+              0px 3px 18px rgba(0,0,0,0.08), 
+              0px 0px 0px 4px rgba(0,0,0,0.2);
+      }
+
+
+
+      b{
+      font-size: 120%;
+      font-weight: 100;
+      color: white;
+      transform-origin: 0 0;
+      transform: rotate(270deg);
+      }
+
+
+
+      .cat-card{
+
+      background-color:#9ACD32;
+      padding:42px 50px;
+      height: 64.5%;
+      clip-path: circle(5% at 95% 11%);
+      transition: all ease-in-out .3s;
+      }
+
+      .cat__infoicon{
+      display: flex;
+      justify-content: flex-end;      
+      font-size:1.4em;
+      color:#000000;
+      transition:ease-out .3s;
+      }
+
+
+
+      .cat-card__title{
+      position: relative;
+      color:#006400;
+      top: -20px;
+      margin:-10;
+      font-size: 170%;
+      line-height:1.2;
+
+
+      }
+      .cat-card__description{
+      margin:0;
+
+      font-size: 1.1em;
+      line-height:1.6;
+      }
+      .cat-card__credits{
+      margin:0;
+      padding: 4px 0;
+
+      font-size: 1.1em;
+      }
+      .cat-card__reference{
+      display:inline-block;
+      border-bottom: 1px solid transparent;
+      color:#0099ff;
+      text-decoration:none;
+      transition: ease-in .3s;
+      }
+      .cat-card:hover{
+          border-bottom-color: #0099ff;
+      }
+
+
+      .cat-card:hover, .cat-card:focus{
+      clip-path: circle(75%);
+      box-shadow: 0px 3px 9px rgba(0,0,0,0.12),
+                  0px 3px 18px rgba(0,0,0,0.08);
+      background:#ffffff;
+
+      outline:none;
+      }
+      .cat-card__infoicon{
+        opacity: 0;
+      }
+
+      .cat-card:focus{
+      box-shadow: 0px 3px 9px rgba(0,0,0,0.12), 
+                  0px 3px 18px rgba(0,0,0,0.08), 
+                  0px 0px 0px 4px rgba(0,0,0,0.2);
+      }
+
+
+
+
+      b{
+        position: absolute;
+        font-size: 120%;
+        font-weight: 100;
+        color: white;
+      }
+
+
+      .dog-card > .dog__infoicon {     
+      position: relative;     
+      right: -2px;     
+      top: -19px; 
+      font-size: 25px;
+      }
+      .cat-card > .cat__infoicon {     
+      position: relative;     
+      right: -30px;     
+      top: -28px; 
+
+      }
+      .small_animal > .small_animal__infoicon {     
+      position: relative;     
+      right: -13.5px;     
+      top: -28px; 
+      font-size: 15px;
+      }
+
+
+      .icon{
+      color: white;
+      }
+
+
+      .ul-small{
+      position: relative;
+      top:-50px;
+
+      }
+
+
+      .ul-cat{
+      position: relative;
+      top:-20px;
+      font-size: 20px;
+      }
+
+      .ul-dog{
+      font-size: 30px;
+      position: relative;
+      top:-20px;
+      }
+
+
+      a{
+      color:#71B48D;
+      
+      }
+
+      a:active{
+        color:red;
+      }
+
+      li{
+      color:#9ACD32;
+      }
+
+      h1{
+        margin-top: 0px;
+        padding-top: 60px;
+        font-size: 90px;
+      }
+      h5{
+        font-size: 30px;
+        word-spacing: 50px;
+      }
+
+      button{
+        height: 90px;
+        width: 200px;
+        font-size: 40px;
+        background-color: unset;
+        border: 0px;
+        font-family: 'Reggae One', cursive;
+        border-radius: 50%;
+
+      }
+
+      img{
+        height: 100%;
+        width: 23.5%;
+        
+      }
+
+      .sale1{
+        width: 10%;
+        height: 20%;
+        position: absolute;
+        background-color:unset;
+        top:0px;
+        left:13.5%;
+
+      }
+      .sale2{
+        width: 10%;
+        height: 20%;
+        position: absolute;
+        background-color:unset;
+        top:0px;
+        left:39%;
+
+
+      }
+      .sale3{
+        width: 10%;
+        height: 20%;
+        position: absolute;
+        background-color:unset;
+        top:0px;
+        left:64.5%;
+
+
+      }
+      .sale4{
+        width: 10%;
+        height: 20%;
+        position: absolute;
+        background-color:unset;
+        top:0px;
+        left:90%;
+
+
+      }
