@@ -4,9 +4,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg"/>
     <script src="https://kit.fontawesome.com/fb1aae2fc7.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js" async></script>
 </head>
 <body>
-<div class="containergit ">
+<div class="container">
     <img src="assets/logo.png" class="logo">
         <div class="animal-collection">
             <div class="dog">
@@ -34,7 +35,7 @@
                             <i class="fa fa-info icon"></i>
                         </div>
                         <h4 class="cat-card__title">Dostępne akcesoria:</h4>
-                          <ul class="ul-cat">
+                        <ul class="ul-cat">
                             <li><a href="#">Drapaki</a></li>
                                 <li><a href="#">Karmy</a></li>
                                     <li><a href="#">Zabawki</a></li>
@@ -116,7 +117,7 @@
                                         <div class="space"></div>
                                             <img src="assets/pies4.jpg">
                                                 <img src="assets/sale.png" class="sale4">
-        </div>
+    </div>
     <div class="top-products-cat" id="top-products-cat">
         <img src="assets/kot1.jpg">
             <img src="assets/sale.png" class="sale1">
@@ -154,69 +155,6 @@
                                             <img src="assets/sale.png" class="sale4">
     </div>
 </h5>
-
-
-
-
-
 </div>
-
 </body>
-<script>
-    var x = document.getElementById('top-products');
-    var dog = document.getElementById('top-products-dog');
-    var cat = document.getElementById('top-products-cat');
-    var rodents = document.getElementById('top-products-rodents');
-    var bird = document.getElementById('top-products-bird');
-    
-    
-    function show(){
-
-        x.style.opacity = "1";
-        dog.style.opacity = "0";
-        cat.style.opacity = "0";
-        rodents.style.opacity = "0";
-        bird.style.opacity = "0";
-
-    }
-
-
-    function show_dog(){
-
-        dog.style.opacity = "1";
-        x.style.opacity = "0";
-        cat.style.opacity = "0";
-        rodents.style.opacity = "0";
-        bird.style.opacity = "0";
-
-    }
-
-    function show_cat(){
-
-        cat.style.opacity = "1";
-        x.style.opacity = "0";
-        dog.style.opacity = "0";
-        rodents.style.opacity = "0";
-        bird.style.opacity = "0";
-    }
-
-    function show_rodents(){
-
-        rodents.style.opacity = "1";
-        x.style.opacity = "0";
-        cat.style.opacity = "0";
-        dog.style.opacity = "0";
-        bird.style.opacity = "0";
-    }
-
-
-function show_bird(){
-
-        bird.style.opacity = "1";
-        x.style.opacity = "0";
-        cat.style.opacity = "0";
-        rodents.style.opacity = "0";
-        dog.style.opacity = "0";
-    }
-    </script>
 </html>
